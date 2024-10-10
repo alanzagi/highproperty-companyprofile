@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Property</title>
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Flowbite -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <!-- Internal CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="font-poppins">
+    <nav class="absolute top-0 left-0 w-full border-gray-200 bg-transparent backdrop-blur-sm border-gray-700 z-10">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="/img/alanxcode.jpg" class="h-8 rounded-full" alt="" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">High Property</span>
+        </a>
+        <button
+          data-collapse-toggle="navbar-solid-bg"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-solid-bg"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+          <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+            <li>
+              <a href="/index.html" class="block py-2 px-3 md:p-0 text-white bg-green-500 rounded md:bg-transparent md:text-green-500" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="/about.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-white md:border-0 md:hover:text-green-500">About</a>
+            </li>
+            <li>
+              <a href="/services.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-white md:border-0 md:hover:text-green-500">Services</a>
+            </li>
+            <li>
+              <a href="/contact.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:text-white md:border-0 md:hover:text-green-500">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="relative h-screen bg-cover bg-center flex items-center justify-center bg-header">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="max-w-2xl relative z-10 text-center px-10 space-y-4 md:px-20">
+        <h1 class="text-slate-100 text-4xl font-bold capitalize md:text-5xl">Find your perfect home</h1>
+        <div class="flex items-center justify-center">
+          <hr class="border-1 border-green-500 w-1/2" />
+        </div>
+        <p class="text-slate-100">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quisquam eius deleniti, reprehenderit quibusdam a neque aliquam harum veritatis. Ipsum.</p>
+        <button
+          type="button"
+          class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-500 shadow-lg shadow-green-500/50 font-medium rounded-lg text-sm px-8 py-2.5 text-center me-2 mb-2"
+        >
+          Contact Us
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="">
+        <div class="px-4 py-20 grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-10 md:px-10 lg:px-40 md:items-center">
+          <div class="">
+            <img src="img/image1.jpg" alt="" class="w-full h-96" />
+          </div>
+
+          <div class="text-gray-900 space-y-4">
+            <h1 class="text-5xl font-medium pr-">List your property on our website</h1>
+            <hr class="border-1 border-green-500 w-1/5" />
+            <p class="text-sm">
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+              opposed to using 'Content here, content here', making it look like readable English. Magnam, consequatur quas ratione eaque praesentium eligendi voluptatum at harum mollitia rem veritatis accusantium pariatur.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="px-4">
+          <div class="text-center space-y-4">
+            <h1 class="text-5xl font-medium">What are you looking for?</h1>
+            <div class="flex items-center justify-center">
+              <hr class="border-2 border-green-500 w-1/5" />
+            </div>
+          </div>
+
+          <div class="text-center">
+            <figure class="p-10 bg-slate-200 rounded-xl">
+              <div class="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center"></div>
+              <h1 class="text-3xl font-medium text-gray-900">Family Home</h1>
+              <figcaption class="text-sm">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  </body>
+</html>
