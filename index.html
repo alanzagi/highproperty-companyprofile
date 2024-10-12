@@ -24,6 +24,8 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <!-- Internal CSS-->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Data AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body class="font-poppins">
     <nav class="fixed md:absolute top-0 left-0 w-full border-gray-200 bg-transparent backdrop-blur-sm border-gray-700 z-10">
@@ -86,14 +88,14 @@
 
     <main>
       <section class="px-4 py-20 grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-10 md:px-10 lg:px-40 md:items-center">
-        <div class="">
+        <div data-aos="fade-up">
           <img src="img/image1.jpg" alt="" class="w-full h-96" />
         </div>
 
         <div class="text-gray-900 space-y-4">
-          <h1 class="text-5xl font-medium pr-">List your property on our website</h1>
-          <hr class="border-1 border-green-500 w-1/5" />
-          <p class="text-sm">
+          <h1 class="text-5xl font-medium" data-aos="fade-up">List your property on our website</h1>
+          <hr class="border-1 border-green-500 w-1/5" / data-aos="fade-up">
+          <p class="text-sm" data-aos="fade-up">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
             to using 'Content here, content here', making it look like readable English. Magnam, consequatur quas ratione eaque praesentium eligendi voluptatum at harum mollitia rem veritatis accusantium pariatur.
           </p>
@@ -101,7 +103,7 @@
       </section>
 
       <section class="px-4 py-20 space-y-8 md:px-10 lg:px-24">
-        <div class="text-center space-y-4">
+        <div class="text-center space-y-4" data-aos="fade-up">
           <h1 class="text-5xl font-medium">What are you looking for?</h1>
           <div class="flex items-center justify-center">
             <hr class="border-2 border-green-500 w-1/5" />
@@ -109,7 +111,7 @@
         </div>
 
         <div class="text-center grid grid-cols-1 gap-y-6 md:grid-cols-3 md:gap-y-0 md:gap-x-6">
-          <figure class="p-10 space-y-4 shadow-xl">
+          <figure class="p-10 space-y-4 shadow-xl" data-aos="flip-left">
             <div class="flex items-center justify-center">
               <div class="h-20 w-20 rounded-full bg-green-500 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed" class="h-14 w-14">
@@ -123,7 +125,7 @@
             </figcaption>
           </figure>
 
-          <figure class="p-10 space-y-4 shadow-xl">
+          <figure class="p-10 space-y-4 shadow-xl" data-aos="flip-left">
             <div class="flex items-center justify-center">
               <div class="h-20 w-20 rounded-full bg-green-500 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed" class="h-14 w-14">
@@ -139,7 +141,7 @@
             </figcaption>
           </figure>
 
-          <figure class="p-10 space-y-4 shadow-xl">
+          <figure class="p-10 space-y-4 shadow-xl" data-aos="flip-left">
             <div class="flex items-center justify-center">
               <div class="h-20 w-20 rounded-full bg-green-500 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed" class="h-14 w-14">
@@ -158,7 +160,7 @@
       </section>
 
       <section class="px-4 py-20 space-y-8 md:px-10 lg:px-24 bg-slate-100">
-        <div class="text-center space-y-4">
+        <div class="text-center space-y-4" data-aos="fade-up">
           <h1 class="text-5xl font-medium">Choose your neighborhood?</h1>
           <div class="flex items-center justify-center">
             <hr class="border-2 border-green-500 w-1/5" />
@@ -166,7 +168,7 @@
         </div>
 
         <div class="grid grid-cols-1 py-4 px-4 gap-y-8 pb-10 md:grid-cols-2 md:gap-y-8 md:gap-x-6 md:px-10 md:py-10">
-          <div>
+          <div data-aos="flip-right">
             <div class="overflow-hidden rounded-lg">
               <img src="img/image2.jpg" class="rounded-lg w-full h-[20em] object-cover transition-transform duration-300 hover:scale-110" />
             </div>
@@ -174,7 +176,7 @@
             <p class="text-sm">10 Properties</p>
           </div>
 
-          <div>
+          <div data-aos="flip-right">
             <div class="overflow-hidden rounded-lg">
               <img src="img/image3.jpg" class="rounded-lg w-full h-[20em] object-cover transition-transform duration-300 hover:scale-110" />
             </div>
@@ -182,7 +184,7 @@
             <p class="text-sm">15 Properties</p>
           </div>
 
-          <div>
+          <div data-aos="flip-right">
             <div class="overflow-hidden rounded-lg">
               <img src="img/image4.jpg" class="rounded-lg w-full h-[20em] object-cover transition-transform duration-300 hover:scale-110" />
             </div>
@@ -190,7 +192,7 @@
             <p class="text-sm">15 Properties</p>
           </div>
 
-          <div>
+          <div data-aos="flip-right">
             <div class="overflow-hidden rounded-lg">
               <img src="img/image5.jpg" class="rounded-lg w-full h-[20em] object-cover transition-transform duration-300 hover:scale-110" />
             </div>
@@ -201,7 +203,7 @@
       </section>
 
       <section class="px-4 py-20 space-y-8 md:px-10 lg:px-24">
-        <div class="text-center space-y-4">
+        <div class="text-center space-y-4" data-aos="fade-up">
           <h1 class="text-5xl font-medium">Why Choose Us?</h1>
           <div class="flex items-center justify-center">
             <hr class="border-2 border-green-500 w-1/5" />
@@ -209,7 +211,7 @@
         </div>
 
         <div class="text-center grid grid-cols-1 gap-y-6 md:grid-cols-3 md:gap-y-0 md:gap-x-6">
-          <figure class="p-10 space-y-4 shadow-xl">
+          <figure class="p-10 space-y-4 shadow-xl" data-aos="flip-left">
             <div class="flex items-center justify-center">
               <div class="h-20 w-20 rounded-full bg-green-500 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed" class="h-14 w-14">
@@ -223,7 +225,7 @@
             </figcaption>
           </figure>
 
-          <figure class="p-10 space-y-4 shadow-xl">
+          <figure class="p-10 space-y-4 shadow-xl" data-aos="flip-left">
             <div class="flex items-center justify-center">
               <div class="h-20 w-20 rounded-full bg-green-500 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed" class="h-14 wh-14">
@@ -239,7 +241,7 @@
             </figcaption>
           </figure>
 
-          <figure class="p-10 space-y-4 shadow-xl">
+          <figure class="p-10 space-y-4 shadow-xl" data-aos="flip-left">
             <div class="flex items-center justify-center">
               <div class="h-20 w-20 rounded-full bg-green-500 flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#e8eaed" class="h-14 w-14">
@@ -258,7 +260,7 @@
       </section>
 
       <section class="px-4 py-20 space-y-8 md:px-10 lg:px-24">
-        <div class="text-center space-y-4">
+        <div class="text-center space-y-4" data-aos="fade-up">
           <h1 class="text-5xl font-medium">Our Latest Project</h1>
           <div class="flex items-center justify-center">
             <hr class="border-2 border-green-500 w-1/5" />
@@ -266,15 +268,15 @@
         </div>
 
         <div class="grid grid-cols-1 gap-y-6 md:grid-cols-3 md:gap-y-0 md:gap-x-6">
-          <div class="overflow-hidden rounded-lg">
+          <div class="overflow-hidden rounded-lg" data-aos="flip-right">
             <img src="img/image6.jpg" class="rounded-lg w-full h-[30em] object-cover transition-transform duration-300 hover:scale-110" />
           </div>
 
-          <div class="overflow-hidden rounded-lg">
+          <div class="overflow-hidden rounded-lg" data-aos="flip-right">
             <img src="img/image7.jpg" class="rounded-lg w-full h-[30em] object-cover transition-transform duration-300 hover:scale-110" />
           </div>
 
-          <div class="overflow-hidden rounded-lg">
+          <div class="overflow-hidden rounded-lg" data-aos="flip-right">
             <img src="img/image8.jpg" class="rounded-lg w-full h-[30em] object-cover transition-transform duration-300 hover:scale-110" />
           </div>
         </div>
@@ -285,19 +287,19 @@
         <div class="relative z-10 flex items-center justify-center h-full lg:h-auto">
           <div class="text-center max-w-7xl px-4 lg:px-8 lg:py-16">
             <div class="mt-8 mb-8 grid grid-cols-1 gap-14 lg:grid-cols-4 lg:grid-rows-1 lg:gap-20">
-              <div class="space-y-2">
+              <div class="space-y-2" data-aos="zoom-in">
                 <h1 class="text-6xl text-green-500 font-semibold counter" data-target="200">0</h1>
                 <p class="text-slate-100 uppercase font-semibold whitespace-nowrap">Projects Completed</p>
               </div>
-              <div class="space-y-2">
+              <div class="space-y-2" data-aos="zoom-in">
                 <h1 class="text-6xl text-green-500 font-semibold counter" data-target="1200">0</h1>
                 <p class="text-slate-100 uppercase font-semibold whitespace-nowrap">Satisfied Customers</p>
               </div>
-              <div class="space-y-2">
+              <div class="space-y-2" data-aos="zoom-in">
                 <h1 class="text-6xl text-green-500 font-semibold counter" data-target="10">0</h1>
                 <p class="text-slate-100 uppercase font-semibold whitespace-nowrap">Years Of Experience</p>
               </div>
-              <div class="space-y-2">
+              <div class="space-y-2" data-aos="zoom-in">
                 <h1 class="text-6xl text-green-500 font-semibold counter" data-target="40">0</h1>
                 <p class="text-slate-100 uppercase font-semibold whitespace-nowrap">Locations</p>
               </div>
@@ -307,7 +309,7 @@
       </section>
 
       <section class="px-4 py-20 space-y-8 md:px-10 lg:px-24">
-        <div class="text-center space-y-4">
+        <div class="text-center space-y-4" data-aos="fade-up">
           <h1 class="text-5xl font-medium">What Our Clients Think</h1>
           <div class="flex items-center justify-center">
             <hr class="border-2 border-green-500 w-1/5" />
@@ -315,7 +317,7 @@
         </div>
 
         <div class="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-6">
-          <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border border-gray-900 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+          <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border border-gray-900 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e" data-aos="flip-left">
             <blockquote class="max-w-2xl mx-auto mb-4 text-gray-900 lg:mb-8">
               <p class="my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -331,7 +333,7 @@
             </figcaption>
           </figure>
 
-          <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border border-gray-900 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
+          <figure class="flex flex-col items-center justify-center p-8 text-center bg-white border border-gray-900 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e" data-aos="flip-left">
             <blockquote class="max-w-2xl mx-auto mb-4 text-gray-900 lg:mb-8">
               <p class="my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -524,5 +526,10 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <!-- Internal JS -->
     <script src="js/script.js"></script>
+    <!-- Data AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
