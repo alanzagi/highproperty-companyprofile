@@ -78,3 +78,17 @@ form.addEventListener("submit", (e) => {
       submitButton.disabled = false;
     });
 });
+
+function sendToWhatsApp(event) {
+  event.preventDefault(); // Mencegah form melakukan submit tradisional
+
+  const name = document.getElementById("name").value;
+  const message = document.getElementById("message").value;
+
+  const phoneNumber = "6281521550913"; // Ganti dengan nomor WhatsApp tujuan
+  const url = `https://wa.me/${phoneNumber}?text=Nama: ${encodeURIComponent(name)}%0APesan: ${encodeURIComponent(message)}`;
+
+  window.open(url, "_blank"); // Membuka WhatsApp di tab baru
+
+  document.getElementById("contactForm").reset();
+}
