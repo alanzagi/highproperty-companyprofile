@@ -113,10 +113,20 @@ function doPost (e) {
 - In the popup, copy the `Current web app URL` from the dialog.
 - And click `OK`.
 
-Open the file named `js/script.js`. replace `scriptURL` with your `Current web app URL`:
+6. Open the file named `js/script.js`. replace `scriptURL` with your `Current web app URL`:
 ```js
 const scriptURL = "paste yours here";
 ```
+and then the code would become like these
+```js
+const scriptURL = "https://script.google.com/macros/s/AKfycbzWmtYtXzNb8UfFd8anfTHxaJHNI_VbZc81-sIzZ1Uv-GxsBXmQZcESKSzv9xbcz4dT/exec";
+```
+
+7. So you can use the Contact Us feature, you have to change the value of variable on the file named `js/script.js` to the company/destination number
+```js
+const phoneNumber = "6281521550913"
+```
+
 - Finished  
 
 ## Contributing 🤝
